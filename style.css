@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+
+header h2.top{
+text-align: center;
+margin-top: 30px;
+}
+
+header h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p{
+    text-align: center;
+}
+
+
+.card{
+  position: relative;
+  overflow: hidden;
+    background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  height: 20rem;
+  padding: 30px;
+}
+
+
+.card__img{
+   margin-top: 12px;
+   position: absolute;
+   right:0;
+   bottom: 0;
+   padding:15px;
+}
+.fourcard {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-light{
+    opacity: 60%;
+  }
+
+
+  .card-team{
+    border-top: solid 5px red;
+    grid-column:2/3;
+    margin-bottom: 2px; 
+  }
+
+  .card-Supervisor{
+    border-top:solid 5px hsl(212, 86%, 64%);
+    grid-row:2/3;
+  }
+.card-Karma{
+  border-top:solid 5px hsl(34, 97%, 64%)
+}
+
+.card-Calculator{
+  border-top:solid 5px  hsl(212, 86%, 64%);
+  grid-column:3/4;
+  grid-row:2/3;
+}
+
+.center-cards{
+  grid-column:2/3;
+  grid-row:1/4;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
